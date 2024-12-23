@@ -3,7 +3,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts', '*.tsx', '*.js', '*.jsx', '*.cjs', '*.mjs'],
-      extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsonc/recommended-with-json', 'turbo'],
+      extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsonc/recommended-with-json'],
       plugins: ['prettier', 'import', 'unused-imports'],
       parserOptions: {
         ecmaFeatures: {
@@ -59,7 +59,6 @@ module.exports = {
             prefer: 'no-type-imports',
           },
         ],
-        'turbo/no-undeclared-env-vars': ['warn'],
       },
     },
     {
