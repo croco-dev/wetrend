@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "types": ["node"]
+  },
+  "display": "Node",
+  "exclude": ["node_modules"],
+  "extends": "./tsconfig.base.json",
+  "include": ["src/**/*.ts"]
+}
