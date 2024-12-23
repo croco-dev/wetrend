@@ -1,5 +1,5 @@
 {
-  "name": "heewon.dev",
+  "name": "wetrend",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,9 @@
     "prepare": "lefthook install"
   },
   "devDependencies": {
-    "@heewon.dev/eslint-config": "workspace:*",
-    "@heewon.dev/utils-tsconfig": "workspace:*",
-    "eslint": "8.57.0",
+    "@wetrend/eslint-config": "workspace:*",
+    "@wetrend/utils-tsconfig": "workspace:*",
+    "eslint": "8.57.1",
     "lefthook": "1.9.0",
     "turbo": "latest",
     "typescript": "5.7.2"

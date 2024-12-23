@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "@heewon.dev/eslint-config/react"
+  "extends": "@wetrend/eslint-config/react"
 }

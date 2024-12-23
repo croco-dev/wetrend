@@ -1,0 +1,5 @@
+{
+  "exclude": ["node_modules"],
+  "extends": "@wetrend/utils-tsconfig/tsconfig.react.json",
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@aa/aaa",
+  "name": "@wetrend/aaa",
   "version": "0.0.0",
   "type": "commonjs",
   "main": "./src/index.ts",
@@ -10,9 +10,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@heewon.dev/eslint-config": "workspace:*",
-    "@heewon.dev/utils-tsconfig": "workspace:*",
     "@types/react": "*",
-    "@types/react-dom": "*"
+    "@types/react-dom": "*",
+    "@wetrend/eslint-config": "workspace:*",
+    "@wetrend/utils-tsconfig": "workspace:*"
   }
 }
