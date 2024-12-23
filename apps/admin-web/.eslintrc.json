@@ -1,0 +1,4 @@
+{
+  "extends": "@wetrend/eslint-config",
+  "root": true
+}
